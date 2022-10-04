@@ -1,9 +1,16 @@
+/* eslint-disable @next/next/no-img-element */
+
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
 
     <>
+      <div className="fixed bottom-7 right-6" >
+        <Link href={'/apply'}><a><img className='border rounded-full w-28 md:w-36' src="/img/prizePool.gif" alt="" srcSet="" /></a></Link>
+        
+      </div>
       <div className="container mx-auto">
         <section className="text-gray-600 body-font">
           <div className="container mx-auto flex px-5 py-10 items-center justify-center flex-col">
