@@ -10,7 +10,7 @@ function Enquiry() {
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">We are here to resolve your query. We glad to help you.</p>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
-            <form action="enquiryres" method='POST'>
+            <form action="enquiryres">
               <div className="flex flex-wrap -m-2">
                 <div className="p-2 w-1/2">
                   <div className="relative">

@@ -14,7 +14,7 @@ function apply() {
                         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-black-900">Do Participate with Us</h1>
                         <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Organized by School of Engineering and Sciences, GD Goenka University, Sohna, Gurugram, Haryana.</p>
                     </div>
-                    <form action="submit" method="POST">
+                    <form action="submit">
                         <div className="lg:w-1/2 md:w-2/3 mx-auto">
                             <div className="flex flex-wrap m-2">
                                 <div className="p-2 w-full">
