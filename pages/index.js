@@ -70,7 +70,7 @@ export default function Home() {
             <div className="leading-relaxed mb-6">
               <p>Registration Fees for UNIVERSITIES - Rs 250/- Per Person</p >
               <p>Registration Fees for SCHOOL – Rs 250/- in TEAM</p>
-              <p>Registration Fees for OUTSIDER – Rs 250/- Per PersoM</p>
+              <p>Registration Fees for OUTSIDER – Rs 250/- Per Person</p>
             </div>
             <a className="inline-flex items-center ">
               <span className="title-font font-bold ">GD Goenka University</span>

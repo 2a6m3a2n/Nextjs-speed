@@ -8,7 +8,7 @@ import { FiArrowRightCircle } from 'react-icons/fi';
 function Footer() {
     return (
         <>
-            <footer className="text-gray-600 body-font overflow-hidden">
+            <footer className="text-gray-600 body-font shadow-lg shadow-black mt-12  overflow-hidden">
                 <div className="container mx-auto px-5 py-10 flex lg:items-center lg:flex-row lg:flex-nowrap flex-wrap flex-col">
                     <div className="w-64 flex-shrink-0 lg:mx-0 mx-auto text-center lg:text-left">
                         <a className="flex title-font font-medium items-center lg:justify-start justify-center text-gray-900">
