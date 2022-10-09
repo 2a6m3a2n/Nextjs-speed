@@ -12,9 +12,7 @@ function Footer() {
                         <p className="mt-2 text-sm text-gray-500">Providing Engineering Solution for Nation Building</p>
                         <h2 className='font-semibold text-lg pt-3 '>GD Goenka University, Gurugram, GD GOENKA UNIVERSITY, Sohna - Gurgaon Road, Sohna, Haryana</h2>
                     </div>
-                    <div className="lg:w-1/2 w-full my-4">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3514.1053042297513!2d77.06234335073718!3d28.264823607292804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04df73812c16b%3A0x458f4ebb5de0cf33!2sGD%20Goenka%20University%2C%20Gurugram!5e0!3m2!1sen!2sin!4v1665318348321!5m2!1sen!2sin" width={600} height={250} allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3514.1053042297513!2d77.06234335073718!3d28.264823607292804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04df73812c16b%3A0x458f4ebb5de0cf33!2sGD%20Goenka%20University%2C%20Gurugram!5e0!3m2!1sen!2sin!4v1665318348321!5m2!1sen!2sin" allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='lg:w-2/3 py-3 w-full h-52'></iframe>
                 </div>
             </footer>
 
