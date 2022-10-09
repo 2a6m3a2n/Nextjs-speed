@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import * as fs from 'fs'
+import Image from 'next/image'
 import React, { useState } from 'react'
 
 function Gallery({ imgs }) {
@@ -13,12 +13,13 @@ function Gallery({ imgs }) {
     }
     return (
         <>
-            {viewImg && <div className="w-full h-96 bg-black fixed top-60 md:top-40 z-10 bg-opacity-70 flex justify-center items-center overflow-hidden">
-                <Image key={viewIndex} width={300} height={250} src={`/img/${viewImg}`} alt="" srcSet="" />
-                <button className='absolute text-white font-bold text-3xl top-3 right-3' onClick={() => { setViewImag(null) }}>X</button>
+        <h2 className='text-center text-4xl font-semibold my-6'>Our Memories</h2>
+            {viewImg && <div  className="w-full h-full md:h-[32rem] bg-red-50 fixed top-60 md:top-40 z-10 bg-opacity-60 pt-16 p-4 md:pt-0  md:flex justify-center items-center overflow-hidden">
+                <Image key={viewIndex} width={500} height={400} src={`/img/${viewImg}`} alt="" srcSet="" />
+                <button className='absolute text-red-400 font-bold text-3xl top-3 right-3' onClick={() => { setViewImag(null) }}>X</button>
             </div>}
-            <div className="container flex items-center justify-center mx-auto">
-                <div className='grid grid-cols-3 gap-1 px-2 '>
+            <div className="container flex items-center justify-center mx-auto cursor-pointer">
+                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 px-2 '>
                     {img && img.map((imgtitle, index) => {
                         return (
                             <Image key={index} width={300} height={250} src={`/img/${imgtitle}`} alt="" srcSet="" onClick={() => { handleImage(imgtitle, index) }} />
@@ -32,8 +33,6 @@ function Gallery({ imgs }) {
 
 export async function getStaticProps(context) {
     let imgs = await fs.promises.readdir('public/img')
-    // const allimgs =  imgs.json()
-    console.log(imgs)
     return {
         props: { imgs }
     }

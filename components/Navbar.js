@@ -15,8 +15,8 @@ function Navbar() {
                     <nav className={`md:ml-auto flex flex-wrap items-center text-base justify-center`}>
                         <Link href={'/'}><a className="mr-5 text-sm hover:text-red-500 text-black md:text-base font-semibold hover:border-b-2 hover:border-red-700">Home</a></Link>
                         <Link href={'/award'}><a className="mr-5 text-sm hover:text-red-500 text-black md:text-base font-semibold hover:border-b-2 hover:border-red-700">Best Award</a></Link>
-                        <Link href={'/gallery'}><a className="mr-5 text-sm hover:text-red-500 text-black md:text-base font-semibold hover:border-b-2 hover:border-red-700">Gallery</a></Link>
-                        <Link href={'/contact'}><a className="mr-5 text-sm hover:text-red-500 text-black md:text-base font-semibold hover:border-b-2 hover:border-red-700 ">Contact Us</a></Link>
+                        <Link href={'/gallery'}><a className="mr-5 text-sm hover:text-red-500 text-black md:text-base font-semibold hover:border-b-2 hover:border-red-700">Memories</a></Link>
+                        <Link href={'/enquiry'}><a className="mr-5 text-sm hover:text-red-500 text-black md:text-base font-semibold hover:border-b-2 hover:border-red-700 ">Enquiry</a></Link>
                     </nav>
                     <Link href={'/apply'}>
                         <button className="inline-flex items-center border-0 py-1 px-3 focus:outline-none bg-red-600 rounded text-base mt-4 md:mt-0 text-white">Apply Now
