@@ -32,7 +32,7 @@ function Gallery({ allimgs }) {
 
 
 export async function getServerSideProps(context) {
-    const data = await fetch('http://localhost:3000/api/Gallery')
+    const data = await fetch('http://localhost:3000/api/gallery')
     const allimgs = await data.json()
     return {
         props: { allimgs }
