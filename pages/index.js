@@ -73,7 +73,7 @@ export default function Home() {
             <div className="lg:w-1/3 lg:mb-0 p-4">
               <div className="h-full text-center">
                 <img alt="testimonial" className="w-full h-80 mb-8 object-cover object-center rounded-xl inline-block border-2 border-gray-200 bg-gray-100" src="/img/1ab (3).jpeg" />
-                <p className="leading-relaxed">The students of the Engineering don't wait to get into final year to undertake a project. They start from the very first year and the result have been phenomenal considering that they are still in their 3rd year of study. To demonstrate some of the selected projects. SoE is organizing an exhibition of student projects SPEED.</p>
+                <p className="leading-relaxed">The students of the Engineering dont wait to get into final year to undertake a project. They start from the very first year and the result have been phenomenal considering that they are still in their 3rd year of study. To demonstrate some of the selected projects. SoE is organizing an exhibition of student projects SPEED.</p>
                 <span className="inline-block h-1 w-10 rounded bg-red-500 mt-6 mb-4"></span>
               </div>
             </div>
