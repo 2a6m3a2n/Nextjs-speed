@@ -1,8 +1,9 @@
 import Image from 'next/image'
+import * as fs from 'fs'
 import React, { useState } from 'react'
 
-function Gallery({ allimgs }) {
-    const [img, setImg] = useState(allimgs)
+function Gallery({ imgs }) {
+    const [img, setImg] = useState(imgs)
     const [viewImg, setViewImag] = useState()
     const [viewIndex, setViewIndex] = useState()
 
@@ -29,13 +30,12 @@ function Gallery({ allimgs }) {
     )
 }
 
-
-
-export async function getServerSideProps(context) {
-    const data = await fetch('http://localhost:3000/api/gallery')
-    const allimgs = await data.json()
+export async function getStaticProps(context) {
+    let imgs = await fs.promises.readdir('public/img')
+    // const allimgs =  imgs.json()
+    console.log(imgs)
     return {
-        props: { allimgs }
+        props: { imgs }
     }
 }
 
