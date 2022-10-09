@@ -34,8 +34,8 @@ export default function Home() {
       </div>
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-10 mx-auto">
-          <div className="flex flex-wrap -m-4">
-            <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+          <div className="flex flex-wrap -m-4 justify-center">
+            <div className="lg:w-1/3 lg:mb-0 mb-6 p-4 ">
               <div className="h-full text-center">
                 <img alt="testimonial" className="w-full h-80 mb-8 object-cover object-center rounded-xl inline-block border-2 border-gray-200 bg-gray-100" src="/img/3c.JPG" />
                 <p className="leading-relaxed">SPEED is one of the biggest events of its kind in Delhi-NCR region. The event was inaugurated by Mr. Venkatesh Sarvasiddhi, Head-Academic Initi/ atives & Microsoft Innovation Center, Microsoft, and Prof. (Dr.) Deependra Kumar Jha, Vice- Chancellor, GD Goenka University. Mr. Venkatesh was immensely impressed by this event; the number of participations, the variety and quality of projects presented here, and the infrastructure and level of organization in this event.</p>
@@ -56,12 +56,32 @@ export default function Home() {
                 <span className="inline-block h-1 w-10 rounded bg-red-500 mt-6 mb-4"></span>
               </div>
             </div>
+            <div className="lg:w-1/3 lg:mb-0 p-4">
+              <div className="h-full text-center">
+                <img alt="testimonial" className="w-full h-80 mb-8 object-cover object-center rounded-xl inline-block border-2 border-gray-200 bg-gray-100" src="/img/1ab (1).jpeg" />
+                <p className="leading-relaxed">School of Engineering, GD Goenka University proudly presents SPEED  where students will get a chance to showcase their engineering projects and win exciting prizes. SPEED  will give a platform for scientists and engineering of coming years to present their creative and innovative engineering solutions for Nation Building and will get an opportunity to interact with fellow innovators to exchange ideas.</p>
+                <span className="inline-block h-1 w-10 rounded bg-red-500 mt-6 mb-4"></span>
+              </div>
+            </div>
+            <div className="lg:w-1/3 lg:mb-0 p-4">
+              <div className="h-full text-center">
+                <img alt="testimonial" className="w-full h-80 mb-8 object-cover object-center rounded-xl inline-block border-2 border-gray-200 bg-gray-100" src="/img/1ab (2).jpeg" />
+                <p className="leading-relaxed">SPEED not only involves students in making and creating projects but also in communication their ideas to the world. This is one of the rare initiatives where UG students are exposed to poster presentation which is otherwise done by post graduate students and research scholars.</p>
+                <span className="inline-block h-1 w-10 rounded bg-red-500 mt-6 mb-4"></span>
+              </div>
+            </div>
+            <div className="lg:w-1/3 lg:mb-0 p-4">
+              <div className="h-full text-center">
+                <img alt="testimonial" className="w-full h-80 mb-8 object-cover object-center rounded-xl inline-block border-2 border-gray-200 bg-gray-100" src="/img/1ab (3).jpeg" />
+                <p className="leading-relaxed">The students of the Engineering don't wait to get into final year to undertake a project. They start from the very first year and the result have been phenomenal considering that they are still in their 3rd year of study. To demonstrate some of the selected projects. SoE is organizing an exhibition of student projects SPEED.</p>
+                <span className="inline-block h-1 w-10 rounded bg-red-500 mt-6 mb-4"></span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-
-
+     
 
       <div className="container md:flex justify-between px-5 mx-auto">
         <div className="p-4 md:w-1/2 w-full">
