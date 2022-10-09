@@ -1,5 +1,4 @@
 import * as fs from 'fs'
-import Image from 'next/image'
 import React, { useState } from 'react'
 
 function Gallery({ imgs }) {
@@ -19,7 +18,7 @@ function Gallery({ imgs }) {
                 <button className='absolute text-red-400 font-bold text-3xl top-3 right-3' onClick={() => { setViewImag(null) }}>X</button>
             </div>}
             <div className="container flex items-center justify-center mx-auto cursor-pointer">
-                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-2 px-2'>
+                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-2 px-2 cursor-zoom-in'>
                     {img && img.map((imgtitle, index) => {
                         return (
                             <img key={index}  src={`/img/memories/${imgtitle}`} alt="" srcSet="" onClick={() => { handleImage(imgtitle, index) }} />
