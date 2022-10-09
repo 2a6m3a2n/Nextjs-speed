@@ -63,24 +63,24 @@ export default function Home() {
 
 
 
-      <div className="container flex justify-between px-5 mx-auto">
+      <div className="container md:flex justify-between px-5 mx-auto">
         <div className="p-4 md:w-1/2 w-full">
           <div className="h-full bg-gray-100 p-8 rounded">
             <h2 className='text-center font-bold text-xl p-3'>Registraion Fee</h2>
-            <p class="leading-relaxed mb-6">
-              <div>Registration Fees for UNIVERSITIES - Rs 250/- Per Person</div >
-              <div>Registration Fees for SCHOOL – Rs 250/- in TEAM</div>
-              <div>Registration Fees for OUTSIDER – Rs 250/- Per PersoM</div>
-            </p>
-            <a class="inline-flex items-center ">
-              <span class="title-font font-bold ">GD Goenka University</span>
+            <div className="leading-relaxed mb-6">
+              <p>Registration Fees for UNIVERSITIES - Rs 250/- Per Person</p >
+              <p>Registration Fees for SCHOOL – Rs 250/- in TEAM</p>
+              <p>Registration Fees for OUTSIDER – Rs 250/- Per PersoM</p>
+            </div>
+            <a className="inline-flex items-center ">
+              <span className="title-font font-bold ">GD Goenka University</span>
             </a>
           </div>
         </div>
         <div className="shadow-lg border border-black">
-          <div className='p-6' >
-            <img width={250} className="" src="img/payment.jpeg" alt="" srcset="" />
-            <div className='text-2xl text-center  font-semibold'>REGISTRATION FEE</div>
+          <div className='md:p-6' >
+            <img width={250} className="mx-auto " src="img/payment.jpeg" alt="" srcSet="" />
+            <div className='text-2xl text-center font-semibold'>REGISTRATION FEE</div>
           </div>
         </div>
       </div>
