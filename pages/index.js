@@ -15,7 +15,7 @@ export default function Home() {
               Welcome to
               <span className='italic'> SP<span className='text-red-500 italic'>EE</span>D</span>
             </h2>
-            <p className="mt-2 text-sm text-gray-500 md:text-base"><span className="italic"> SPEED-Student Project Exhibition on Engineering Design.</span>The main motto of theis event to encorage Student towards innovative ideas and help them to be more keen to learn with experience. <span className='italic'>It is an Annual event organized by School of Engineering and Science, GD GOENKA UNIVERSITY. </span> </p>
+            <p className="mt-2 text-sm text-gray-500 md:text-base"><span className="italic"> SPEED-Student Project Exhibition on Engineering Design.</span>The main motto of this event to encorage Student towards innovative ideas and help them to be more keen to learn with experience. <span className='italic'>It is an Annual event organized by School of Engineering and Science, GD GOENKA UNIVERSITY. </span> </p>
             <div className="flex justify-center lg:justify-start mt-6">
               <Link href={'/award'}>
                 <button className="px-3 py-2 lg:px-4 lg:py-3 bg-red-500 text-white text-xs font-semibold rounded hover:text-white hover:bg-red-600">Best Awards</button>

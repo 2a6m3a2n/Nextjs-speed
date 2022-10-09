@@ -11,7 +11,7 @@ function award() {
                             <div className="w-24 h-full bg-red-500"></div>
                         </div>
                         <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
-                            <h1 className="sm:w-2/5 text-gray-900 font-medium title-font text-4xl mb-2 sm:mb-0">SPEED - 2022</h1>
+                            <h1 className="sm:w-2/5 text-gray-900 font-medium title-font text-4xl mb-2 sm:mb-0">SPEED - 2019</h1>
                         </div>
                     </div>
                     <section className="text-gray-600 body-font">
@@ -100,7 +100,7 @@ function award() {
                                 <div className="w-24 h-full bg-red-500"></div>
                             </div>
                             <div className="flex flex-wrap sm:flex-row flex-col py-6">
-                                <h1 className="sm:w-2/5 text-gray-900 font-medium title-font text-4xl mb-2 sm:mb-0">SPEED - 2022</h1>
+                                <h1 className="sm:w-2/5 text-gray-900 font-medium title-font text-4xl mb-2 sm:mb-0">SPEED - 2018</h1>
                             </div>
                         </div>
                         <div className="container my-7 flex py-5 md:flex-row flex-col items-center">
@@ -173,7 +173,7 @@ function award() {
                                 <div className="w-24 h-full bg-red-500"></div>
                             </div>
                             <div className="flex flex-wrap sm:flex-row flex-col py-6">
-                                <h1 className="sm:w-2/5 text-gray-900 font-medium title-font text-4xl mb-2 sm:mb-0">SPEED - 2022</h1>
+                                <h1 className="sm:w-2/5 text-gray-900 font-medium title-font text-4xl mb-2 sm:mb-0">SPEED - 2017</h1>
                             </div>
                         </div>
                         <div className="container my-7 flex py-5 md:flex-row flex-col items-center">
@@ -233,7 +233,7 @@ function award() {
                                 <div className="w-24 h-full bg-red-500"></div>
                             </div>
                             <div className="flex flex-wrap sm:flex-row flex-col py-6">
-                                <h1 className="sm:w-2/5 text-gray-900 font-medium title-font text-4xl mb-2 sm:mb-0">SPEED - 2022</h1>
+                                <h1 className="sm:w-2/5 text-gray-900 font-medium title-font text-4xl mb-2 sm:mb-0">SPEED - 2016</h1>
                             </div>
                         </div>
                         <div className="container my-7 flex py-5 md:flex-row flex-col items-center">
