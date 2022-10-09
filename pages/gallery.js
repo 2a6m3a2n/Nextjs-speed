@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React, { useState } from 'react'
 
-function gallery({ allimgs }) {
+function Gallery({ allimgs }) {
     const [img, setImg] = useState(allimgs)
     const [viewImg, setViewImag] = useState()
     const [viewIndex, setViewIndex] = useState()
@@ -32,11 +32,11 @@ function gallery({ allimgs }) {
 
 
 export async function getServerSideProps(context) {
-    const data = await fetch('http://localhost:3000/api/gallery')
+    const data = await fetch('http://localhost:3000/api/Gallery')
     const allimgs = await data.json()
     return {
         props: { allimgs }
     }
 }
 
-export default gallery
+export default Gallery
